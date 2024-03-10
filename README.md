@@ -46,7 +46,16 @@ Clone the repo
 ```
 git clone https://github.com/TheDragonary/War-Plane
 ```
+Install requirements needed to run the game
+```
+pip install -r requirements.txt
+```
+
 ### Windows
+Install cx-freeze
+```
+pip install cx-freeze
+```
 Run the setup file
 ```
 python setup.py build
