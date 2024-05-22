@@ -3,7 +3,7 @@ Very simple 2D scrolling fighter plane game using Pygame
 
 Shoot down enemy planes and try for a high score, but the game gets faster with every 10 points you get!
 
->This game was part of a school project so don't expect me to continue development on this. I'm not going to add anything new or fix anything. However, if you would like to contribute (I doubt anyone would), please make a pull request with the modified code. I would appreciate it if someone knows how to fix the bugs listed in [Known Bugs](https://github.com/TheDragonary/War-Plane/#known-bugs).
+>This game was part of a school project so don't expect me to continue development on this. I'm not going to add anything new or fix anything. However, if you would like to contribute (I doubt anyone would), please make a pull request with the modified code. I would appreciate it if someone knows how to fix the bugs listed in [Known Bugs](https://github.com/TheDragonary/War-Plane/#known-bugs) because I have absolutely no idea how to.
 
 And yes, there are two Python files in the repo.
 
@@ -38,6 +38,7 @@ Downloads can be found in [Releases](https://github.com/TheDragonary/War-Plane/r
 ## Known Bugs
 - Continue button in the pause menu does not work
 - All enemy planes fire bullets at the exact same time instead of random times for each plane
+- After restarting from a game over, the game will not let you close it at all, even with spamming the close button or Alt+F4. Instead, it will just restart the game each time. Only way to close the game is through the pause menu and clicking "Quit". If you are using the "No Menu" version, you wouldn't have the pause menu so you would have to open Task Manager and click "End task" twice or hold Alt+F4.
 
 ## Building
 Not sure why you would ever want to build this as you can find the latest build in [Releases](https://github.com/TheDragonary/War-Plane/releases) but anyways,
