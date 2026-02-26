@@ -18,21 +18,19 @@ Shoot down enemy planes and try for a high score, but the game gets more difficu
 - Increasing enemy speed and fire rate
 - Limited ammo; gain ammo with every kill
 
-## Screenshots
-![](https://github.com/TheDragonary/War-Plane/blob/main/screenshots/1.png)
-![](https://github.com/TheDragonary/War-Plane/blob/main/screenshots/2.png)
-![](https://github.com/TheDragonary/War-Plane/blob/main/screenshots/3.png)
+## Gameplay
+https://github.com/user-attachments/assets/f33dbbd8-31a8-4a80-9d12-93d18bce155b
 
 ## Building
-Not sure why you would ever want to build this as you can find the latest build in [Releases](https://github.com/TheDragonary/War-Plane/releases) but anyways,
+Not sure why you would ever want to build this as you can find the latest build in [Releases](https://github.com/TheDragonary/War-Plane/releases) but anyways...
 
 Clone the repo
 ```
 git clone https://github.com/TheDragonary/War-Plane.git
 ```
-Install requirements - main packages are `pygame` and `pygame_menu`. Latest Python version (3.12+) should work fine.
+Install packages. Latest Python version (3.12+) should work fine.
 ```
-pip install -r requirements.txt
+pip install pygame pygame-menu pyinstaller
 ```
 Run the spec file
 ```

@@ -1,5 +1,0 @@
-pygame
-pygame-menu
-pyperclip
-typing_extensions
-pyinstaller
